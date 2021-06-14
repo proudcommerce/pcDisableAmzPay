@@ -1,0 +1,33 @@
+{
+    "name": "proudcommerce/disableamzpay",
+    "description": "pcDisableAmzPay",
+    "type": "oxideshop-module",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "ProudCommerce",
+            "homepage": "https://www.proudcommerce.com/",
+            "email": "welcome@proudcommerce.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@proudcommerce.com"
+    },
+    "require": {
+        "bestit/amazonpay4oxid": "*",
+        "php": ">= 7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProudCommerce\\DisableAmzPay\\": "../../../source/modules/pc/disableamzpay"
+        }
+    },
+    "extra": {
+        "oxideshop": {
+            "target-directory": "pc/disableamzpay"
+        }
+    }
+}
